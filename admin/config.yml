@@ -1,6 +1,10 @@
 backend:
-  name: git-gateway
-  branch: main  # or "master" depending on your repo
+  name: github
+  repo: gradwell26/mary-munro-art
+  branch: main
+
+  site_url: https://mary-munro-art.netlify.app
+
 
 media_folder: "assets/images"
 public_folder: "/assets/images"

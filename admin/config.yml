@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  branch: main  # or "master" depending on your repo
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "artworks"
+    label: "Artworks"
+    label_singular: "Artwork"
+    editor:
+      preview: false
+    files:
+      - file: "data/artworks.json"
+        label: "Artworks Collection"
+        name: "artworks_collection"
+        format: json
+        fields:
+          - label: "Artworks"
+            name: "artworks"
+            widget: list
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image filename", name: "image", widget: "string" }
+              - { label: "Medium", name: "medium", widget: "string" }
+              - { label: "Dimensions", name: "dimensions", widget: "string" }
+              - { label: "Tags", name: "tags", widget: "list" }
+              - { label: "Availability", name: "availability", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
+

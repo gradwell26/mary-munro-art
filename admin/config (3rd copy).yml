@@ -1,0 +1,28 @@
+# admin/config.yml
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "artworks"
+    label: "Artworks"
+    label_singular: "Artwork"
+    description: "Edit the artworks shown in the gallery"
+    folder: "data"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    extension: "json"
+    identifier_field: "title"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "image", label: "Image", widget: "image" }
+      - { name: "medium", label: "Medium", widget: "string" }
+      - { name: "dimensions", label: "Dimensions", widget: "string" }
+      - { name: "tags", label: "Tags", widget: "list" }
+      - { name: "availability", label: "Availability", widget: "string" }
+      - { name: "price", label: "Price", widget: "string" }
+

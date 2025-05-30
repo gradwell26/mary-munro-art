@@ -1,0 +1,142 @@
+/* layout-alt.css Version: 2025-05-25 10:45 PT */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+}
+
+.alt-container {
+  max-width: 683px;
+  margin: 0 auto;
+  padding: 12px 48px 36px;
+  /* Remove or comment out these lines */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* height: 100vh; */  /* already commented */
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--link);
+}
+
+h1 {
+  margin-top: 64px;
+  margin-bottom: 0px;
+  font-size: 64px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.home-page {
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin-top: 8px;
+  margin-bottom: 32px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.hero-wrapper {
+  width: 100%;
+  height: 592px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.hero-image {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.tag-bar {
+  width: 100%;
+  max-width: 991px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-top: 32px;
+  margin-bottom: 24px; /* keep this */
+}
+
+.tag-bar a {
+  font-size: 1rem;
+  color: var(--link);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.tag-bar a:hover {
+  border-bottom: 1px solid var(--link);
+}
+
+.tag-link {
+  color: var(--link);
+  text-decoration: none;
+  margin-right: 1rem;
+  border-bottom: 1px solid transparent;
+  font-size: 1rem;
+}
+
+.tag-link:hover {
+  border-bottom: 1px solid var(--link);
+}
+
+.tag-link.selected {
+  font-weight: bold;
+  border-bottom: 2px solid var(--link);
+}
+
+.alt-gallery-grid {
+  width: 991px;
+  margin: 0 auto;        /* center the grid */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: black;
+  padding:16px;
+}
+
+
+.thumb {
+  height: 150px;
+  width: auto;
+  border-radius: 0;
+  display: block;
+  cursor: pointer;
+  object-fit: cover;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+

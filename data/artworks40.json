@@ -1,0 +1,507 @@
+[
+  {
+    "title": "Cellular Russet",
+    "image": "001.JPG",
+    "medium": "Oil on canvas",
+    "dimensions": "16 x 22 in",
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$290"
+  },
+  {
+    "title": "Cellular Green",
+    "image": "002.JPG",
+    "medium": "Oil on canvas",
+    "dimensions": "23 x 24 in",
+    "tags": [
+      "Abstract",
+      "Large"
+    ],
+    "availability": "Available",
+    "price": "$440"
+  },
+  {
+    "title": "Sketched Lemons",
+    "image": "003.JPG",
+    "medium": "Mixed media on panel",
+    "dimensions": "10 x 9 in",
+    "tags": [
+      "Still life",
+      "Small"
+    ],
+    "availability": "Available",
+    "price": "$70"
+  },
+  {
+    "title": "Mantlepiece Tulips",
+    "image": "004.JPG",
+    "medium": "Acrylic on canvas",
+    "dimensions": "17 x 20 in",
+    "tags": [
+      "Still life",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$270"
+  },
+  {
+    "title": "Umber Calix",
+    "image": "005.JPG",
+    "medium": "Acrylic on panel",
+    "dimensions": "19 x 15 in",
+    "tags": [
+      "Still life",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$230"
+  },
+  {
+    "title": "Lime Calix with Limes",
+    "image": "006.JPG",
+    "medium": "Acrylic on panel",
+    "dimensions": "19 x 15 in",
+    "tags": [
+      "Still life",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$230"
+  },
+  {
+    "title": "Purple Bottle",
+    "image": "007.JPG",
+    "medium": "Acrylic on panel",
+    "dimensions": "14 x 17 in",
+    "tags": [
+      "Still life",
+      "Small"
+    ],
+    "availability": "Available",
+    "price": "$190"
+  },
+  {
+    "title": "Purple Calix",
+    "image": "008.JPG",
+    "medium": "Acrylic on panel",
+    "dimensions": "17 x 14 in",
+    "tags": [
+      "Still life",
+      "Small"
+    ],
+    "availability": "Available",
+    "price": "$190"
+  },
+  {
+    "title": "Umber Tureen",
+    "image": "009.JPG",
+    "medium": "Acrylic on panel",
+    "dimensions": "18 x 13 in",
+    "tags": [
+      "Still life",
+      "Small"
+    ],
+    "availability": "Available",
+    "price": "$190"
+  },
+  {
+    "title": "Peacock Te x ture",
+    "image": "010.JPG",
+    "medium": "Acrylic on canvas",
+    "dimensions": "17 x 27 in",
+    "tags": [
+      "Abstract",
+      "Large"
+    ],
+    "availability": "Available",
+    "price": "$390"
+  },
+  {
+    "title": "Green Landscape",
+    "image": "011.JPG",
+    "medium": "Acrylic on panel",
+    "dimensions": "22 x 16 in",
+    "tags": [
+      "Landscape",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$290"
+  },
+  {
+    "title": "Black Landscape",
+    "image": "012.JPG",
+    "medium": "Acrylic on panel",
+    "dimensions": "22 x 17 in",
+    "tags": [
+      "Landscape",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$300"
+  },
+  {
+    "title": "Chaotic Landscape",
+    "image": "013.JPG",
+    "medium": "Acrylic on panel",
+    "dimensions": "23 x 17 in",
+    "tags": [
+      "Landscape",
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$320"
+  },
+  {
+    "title": "Forest Landscape",
+    "image": "014.JPG",
+    "medium": "Acrylic on panel",
+    "dimensions": "25 x 19 in",
+    "tags": [
+      "Landscape",
+      "Large"
+    ],
+    "availability": "Available",
+    "price": "$390"
+  },
+  {
+    "title": "Mauve Pitcher",
+    "image": "015.JPG",
+    "medium": "Acrylic on canvas",
+    "dimensions": "20 x 24 in",
+    "tags": [
+      "Still life",
+      "Large"
+    ],
+    "availability": "Available",
+    "price": "$390"
+  },
+  {
+    "title": "Ceramics Still Life",
+    "image": "016.JPG",
+    "medium": "Mixed media on panel",
+    "dimensions": "25 x 18 in",
+    "tags": [
+      "Still life",
+      "Large"
+    ],
+    "availability": "Available",
+    "price": "$370"
+  },
+  {
+    "title": "Cloudy Seascape",
+    "image": "017.JPG",
+    "medium": "Mixed media on canvas",
+    "dimensions": "27 x 21 in",
+    "tags": [
+      "Landscape",
+      "Large"
+    ],
+    "availability": "Available",
+    "price": "$460"
+  },
+  {
+    "title": "Slate Grey Cloud",
+    "image": "018.JPG",
+    "medium": "Acrylic on canvas",
+    "dimensions": "19 x 19 in",
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$290"
+  },
+  {
+    "title": "Milky Cellular",
+    "image": "019.JPG",
+    "medium": "Acrylic on canvas",
+    "dimensions": "17 x 23 in",
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$320"
+  },
+  {
+    "title": "Red Blue Geometry",
+    "image": "020.JPG",
+    "medium": "Acrylic on canvas",
+    "dimensions": "19 x 20 in",
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$300"
+  }
+  {
+    "title": "Untitled",
+    "image": "021.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  }, 
+ {
+    "title": "Untitled",
+    "image": "022.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  },
+  {
+    "title": "Untitled",
+    "image": "023.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  }, 
+ {
+    "title": "Untitled",
+    "image": "024.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  },
+  {
+    "title": "Untitled",
+    "image": "025.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  }, 
+ {
+    "title": "Untitled",
+    "image": "026.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  },
+  {
+    "title": "Untitled",
+    "image": "027.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  }, 
+ {
+    "title": "Untitled",
+    "image": "001.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  },
+  {
+    "title": "Untitled",
+    "image": "028.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  }, 
+ {
+    "title": "Untitled",
+    "image": "029.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  },
+  {
+    "title": "Untitled",
+    "image": "030.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  }, 
+ {
+    "title": "Untitled",
+    "image": "001.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  },
+  {
+    "title": "Untitled",
+    "image": "031.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  }, 
+ {
+    "title": "Untitled",
+    "image": "032.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  },
+  {
+    "title": "Untitled",
+    "image": "033.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  }, 
+ {
+    "title": "Untitled",
+    "image": "034.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  },
+  {
+    "title": "Untitled",
+    "image": "035.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  }, 
+ {
+    "title": "Untitled",
+    "image": "036.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  },
+  {
+    "title": "Untitled",
+    "image": "037.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  }, 
+ {
+    "title": "Untitled",
+    "image": "038.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  },
+  {
+    "title": "Untitled",
+    "image": "039.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  }, 
+ {
+    "title": "Untitled",
+    "image": "040.JPG",
+    "medium": "Acrylic
+    "dimensions": "TBD"
+    "tags": [
+      "Abstract",
+      "Medium"
+    ],
+    "availability": "Available",
+    "price": "$100
+  },
+]

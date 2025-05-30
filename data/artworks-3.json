@@ -1,0 +1,31 @@
+
+[
+  {
+    "title": "Cellular Russet",
+    "image": "001.JPG",
+    "medium": "Oil on canvas",
+    "dimensions": "16 x 22 in",
+    "tags": ["Abstract", "Medium"],
+    "availability": "Available",
+    "price": "$290"
+  },
+  {
+    "title": "Purple Bottle",
+    "image": "007.JPG",
+    "medium": "Acrylic on panel",
+    "dimensions": "14 x 17 in",
+    "tags": ["Still life", "Small"],
+    "availability": "Available",
+    "price": "$190"
+  },
+  {
+    "title": "Cloudy Seascape",
+    "image": "017.JPG",
+    "medium": "Mixed media on canvas",
+    "dimensions": "27 x 21 in",
+    "tags": ["Landscape", "Large"],
+    "availability": "Available",
+    "price": "$460"
+  }
+]
+

@@ -1,0 +1,11 @@
+:root {
+  --bg: #F6F2EF;
+  --accent: #D9CAB3;
+  --text: #3B2F2F;
+  --highlight: #A26769;
+  --link: #588157;
+}
+body { background-color: var(--bg); color: var(--text); }
+header, footer { background-color: var(--accent); }
+h1 { color: var(--highlight); }
+a, .contact-button { color: var(--link); }

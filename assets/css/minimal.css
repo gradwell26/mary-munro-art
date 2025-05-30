@@ -1,0 +1,18 @@
+/* Version: 2025-05-15 10:54 */
+:root {
+  --bg: #FFFFFF;
+  --accent: #F0F0F0;
+  --text: #222222;
+  --highlight: #FF5C5C;
+  --link: #007ACC;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+a, .contact-button {
+  color: var(--link);
+}
+

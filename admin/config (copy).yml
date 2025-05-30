@@ -1,0 +1,30 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "artworks"
+    label: "Artworks"
+    label_singular: "Artwork"
+    description: "Manage Mary’s artwork listings"
+    files:
+      - file: "data/artworks.json"
+        name: "artwork-list"
+        label: "Artwork List"
+        format: "json"
+        fields:
+          - label: "Artworks"
+            name: "artworks"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Medium", name: "medium", widget: "string" }
+              - { label: "Dimensions", name: "dimensions", widget: "string" }
+              - { label: "Tags", name: "tags", widget: "list" }
+              - { label: "Availability", name: "availability", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
+

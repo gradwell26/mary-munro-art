@@ -1,0 +1,72 @@
+﻿Mary Munro Art Site – Setup & Debug Checklist
+Mary Munro Art Site - Setup & Debug Checklist
+
+1. Restart Python Server
+------------------------
+Open a terminal and run:
+
+cd ~/Desktop/mary-munro-art
+python3 -m http.server 8000
+
+You should see:
+Serving HTTP on 0.0.0.0 port 8000…
+
+1A. If you get an “Address already in use” error, means another process is using Port 8000. Try:
+bash
+lsof -i :8000
+The output should begin: “COMMAND PID USER FD…”
+Identify the PID number. Enter:
+kill <PID number>
+or
+kill -9 <PID number> 
+if necessary
+
+2. Open in Browser
+------------------
+Visit: http://localhost:8000/gallery.html
+
+Other useful pages:
+- index.html
+- about.html (if added)
+- data/artworks.json (to inspect data)
+
+3. If Gallery Appears Empty
+---------------------------
+Check 1: JSON loads
+- Open: http://localhost:8000/data/artworks.json
+- Must be valid JSON (starts with [ and ends with ])
+- Ensure comma-separated entries and exact file name casing
+
+Check 2: Image paths
+- Try: http://localhost:8000/assets/images/001.JPG
+- If fails, check image filename/casing in assets/images/
+
+4. Debug JavaScript Issues
+--------------------------
+- Right-click page -> Inspect
+- Go to Console tab
+- Reload page
+- Look for red errors like:
+  - TypeError: something is null
+  - Uncaught SyntaxError
+  - 404 Not Found (.js, .json, .jpg)
+
+To clear cache:
+- Ctrl+F5 (Windows/Linux)
+- Cmd+Shift+R (Mac)
+
+5. Common Gotchas
+-----------------
+Problem                          | Likely Cause
+--------------------------------|-------------------------------
+JSON fails to load              | Syntax error or missing commas
+Images not displaying           | Case mismatch or wrong folder
+Modal won't open or crashes     | JavaScript error or missing element
+No thumbnails appear            | JS failed to load or bad fetch path
+
+6. Clean Restart if All Else Fails
+----------------------------------
+- Stop Python server with Ctrl+C
+- Restart terminal:
+  cd ~/Desktop/mary-munro-art
+  python3 -m http.server 8000

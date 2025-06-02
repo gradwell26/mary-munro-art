@@ -1,7 +1,7 @@
 backend:
-  name: github
-  repo: gradwell26/mary-munro-art
+  name: git-gateway
   branch: main
+
 
   site_url: https://mary-munro-art.netlify.app
 

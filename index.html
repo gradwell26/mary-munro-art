@@ -1,45 +1,29 @@
-<!-- Version: 2025-05-16 07:42 -->
+<!-- Version: 2025-05-16 09:12 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mary Munro, Painter</title>
-  <link rel="stylesheet" href="assets/css/layout.css"/>
-  <link id="theme-stylesheet" rel="stylesheet" href="assets/css/minimal.css"/>
+  <link rel="stylesheet" href="assets/css/layout-alt.css" />
+  <link id="theme-stylesheet" rel="stylesheet" href="assets/css/minimal.css" />
 </head>
 <body>
-  <header>
-    <h1>Mary Munro, Paynter</h1>
+  <div class="alt-container">
     <nav>
-      <a href="index.html">Home</a>
-      <a href="gallery.html">Gallery</a>
+      <a href="index-alt.html">Home</a>
+      <a href="gallery-alt.html">Gallery</a>
       <a href="#">About</a>
-      <select id="theme-selector">
-        <option value="minimal.css">Minimal</option>
-        <option value="earthy.css">Earthy</option>
-        <option value="bold.css">Bold</option>
-        <option value="atmospheric.css">Atmospheric</option>
-      </select>
     </nav>
-  </header>
 
-  <main style="display: flex; height: 100vh;">
-    <div style="width: 300px; background-color: var(--accent); padding: 4rem; display: flex; flex-direction: column; justify-content: flex-start;">
-      <h2>Original Paintings & Fine Art Prints</h2>
-      <p style="font-size: 1.5em;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin blandit quam vel dolor tincidunt, a pharetra urna finibus.</p>
-      <p style="font-size: 1.5em;">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Morbi nec tempor ligula. Sed tincidunt, sapien eget pharetra tincidunt, arcu arcu sollicitudin nulla, nec gravida sem ligula in lorem. Fusce fermentum ex nec lectus tincidunt, a pulvinar lorem vehicula. Quisque non luctus libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis ut purus eget leo fringilla pretium. Integer mattis nisi in risus dapibus, non sollicitudin elit gravida.</p>
+    <h1 class="home-page">Mary Munro</h1>
+    <h2>Painter</h2>
+
+    <div class="hero-wrapper">
+      <img src="assets/images/006.JPG" alt="Sample artwork" class="hero-image" />
     </div>
-    <div style="flex-grow: 1; background-image: url('assets/images/017.JPG'); background-size: cover; background-position: center;"></div>
-  </main>
 
-  <footer><p>&copy; 2025 Mary Munro</p></footer>
-
-  <script>
-    document.getElementById("theme-selector").addEventListener("change", function () {
-      document.getElementById("theme-stylesheet").href = "assets/css/" + this.value;
-    });
-  </script>
+  </div>
 </body>
 </html>
 
